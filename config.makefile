@@ -1,0 +1,4 @@
+
+IMAGENAME := notebook
+
+BUILDDIR  := ./build/
