@@ -4,3 +4,5 @@ IMAGENAME := notebook
 # IMAGENAME := jupyter/base-notebook
 
 BUILDDIR  := ./build/
+
+CONTAINERNAME := jupyter
