@@ -54,7 +54,7 @@ Do as told - use the URL in your browser.
 
 ## Persisting code and ipynb files
 
-Put all files in the directory work/ that is mirrored locally.
+Put all files in the directory `work/` inside the Jupyter server. It is mirrored locally.
 
 
 
