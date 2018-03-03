@@ -1,448 +1,482 @@
 # Source: https://docs.google.com/spreadsheets/d/1u8j6_A8S5_5sr1H0sGYvhAGJDVkFOiA1LIptYpintGg/edit#gid=999687711
 
+categories:
 
+    - nom: "mort"
+      descripcio: "pena de mort"
 
-- pena: "Sense declaració de responsabilitats"
-  anys: 0.0
-  categoria: 8
+    - nom: "30a+"
+      descripcio: "30 anys o perpètua"
 
-- pena: "Sobreseïment"
-  anys: 0.0
-  categoria: 8
+    - nom: "20-30a"
+      descripcio: "més de 20 i menys de 30 anys de prisó"
+      
+    - nom: "12-20a"
+      descripcio: "més de 12 a 20 anys de prisó"
 
-- pena: "Llibertat"
-  anys: 0.0
-  categoria: 8
+    - nom: "6-12a"
+      descripcio: "més de 6 a 12 anys de prisó"
 
-- pena: "Absolt"
-  anys: 0.0
-  categoria: 8
+    - nom: "6m-6a"
+      descripcio: "més de 6 mesos a 6 anys de prisó"
 
-- pena: "Dotze anys i un dia de reclusió temporal"
-  anys: 12.0
-  categoria: 4
+    - nom: "<6m"
+      descripcio: "menys de 6 mesos de prisó"
 
-- pena: "Sis anys i un dia de presó major"
-  anys: 6.0
-  categoria: 5
+    - nom: "sob"
+      descripcio: "sobreseïment"
 
-- pena: "Quinze anys de reclusió temporal"
-  anys: 15.0
-  categoria: 4
+    - nom: "lib"
+      descripcio: "llibertat"
 
-- pena: "Vint anys de reclusió temporal"
-  anys: 20.0
-  categoria: 4
+    - nom:  "alt" 
+      descripcio: "altres"
 
-- pena: "Arxiu"
-  anys: 0.0
-  categoria: 8
 
-- pena: "Pena de multa, remissió o a disposició d'altres autoritats"
-  anys: 0.0
-  categoria: 9
 
-- pena: "Reclusió perpètua"
-  anys: 35.0
-  categoria: 2
+etiquetes:
 
-- pena: "Dotze anys de presó major"
-  anys: 12.0
-  categoria: 5
+    - pena: "Sense declaració de responsabilitats"
+      anys: 0.0
+      categoria: lib 
 
-- pena: "Absolt, remissió o a disposició d'altres autoritats"
-  anys: 0.0
-  categoria: 9
+    - pena: "Sobreseïment"
+      anys: 0.0
+      categoria: sob 
 
-- pena: "Absolt i un mes d'arrest menor"
-  anys: 0.08
-  categoria: 7
+    - pena: "Llibertat"
+      anys: 0.0
+      categoria: lib
 
-- pena: "Absolt i dos mesos d'arrest major"
-  anys: 0.17
-  categoria: 7
+    - pena: "Absolt"
+      anys: 0.0
+      categoria: lib
 
-- pena: "Mort"
-  anys: 0.0
-  categoria: 1
+    - pena: "Dotze anys i un dia de reclusió temporal"
+      anys: 12.0
+      categoria: "12-20a"
 
-- pena: "Vuit anys de presó major"
-  anys: 20.0
-  categoria: 5
+    - pena: "Sis anys i un dia de presó major"
+      anys: 6.0
+      categoria: "6-12a"
 
-- pena: "Nou anys de presó major"
-  anys: 9.0
-  categoria: 5
+    - pena: "Quinze anys de reclusió temporal"
+      anys: 15.0
+      categoria: "12-20a"
 
-- pena: "Sis mesos i un dia de presó menor"
-  anys: 0.5
-  categoria: 6
+    - pena: "Vint anys de reclusió temporal"
+      anys: 20.0
+      categoria: "12-20a"
 
-- pena: "Sobreseïment provisional i tres mesos d'arrest major"
-  anys: 0.25
-  categoria: 7
+    - pena: "Arxiu"
+      anys: 0.0
+      categoria: alt
 
-- pena: "Tres mesos d'arrest major"
-  anys: 0.25
-  categoria: 7
+    - pena: "Pena de multa, remissió o a disposició d'altres autoritats"
+      anys: 0.0
+      categoria: alt
 
-- pena: "Trenta anys de reclusió major"
-  anys: 30.0
-  categoria: 3
+    - pena: "Reclusió perpètua"
+      anys: 35.0
+      categoria: "30a+"
 
-- pena: "Dotze anys i un dia de reclusió menor"
-  anys: 12.0
-  categoria: 4
+    - pena: "Dotze anys de presó major"
+      anys: 12.0
+      categoria: "6-12a"
 
-- pena: "Desglossament en un altre procediment"
-  anys: 0.0
-  categoria: 9
+    - pena: "Absolt, remissió o a disposició d'altres autoritats"
+      anys: 0.0
+      categoria: alt
 
-- pena: "Sobreseïment provisional i un mes d'arrest menor"
-  anys: 0.08
-  categoria: 7
-
-- pena: "Vint anys i un dia de reclusió major"
-  anys: 20.0
-  categoria: 3
-
-- pena: "Sobreseïment provisional i dos mesos d'arrest major"
-  anys: 0.17
-  categoria: 7
-
-- pena: "Un any de presó menor"
-  anys: 1.0
-  categoria: 6
-
-- pena: "Un mes d'arrest menor"
-  anys: 0.08
-  categoria: 7
-
-- pena: "No consta"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Absolt, multa o presó subsidiària"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Suspensió"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Absolt i tres mesos d'arrest major"
-  anys: 0.25
-  categoria: 7
-
-- pena: "Dos mesos d'arrest major"
-  anys: 1.0
-  categoria: 7
-
-- pena: "Deu anys de presó major"
-  anys: 2.0
-  categoria: 5
-
-- pena: "Deu anys d'inhabilitació especial"
-  anys: 2.0
-  categoria: 9
-
-- pena: "Arxiu sense declaració de responsabilitats i un mes d'arrest menor"
-  anys: 0.08
-  categoria: 7
-
-- pena: "Dos anys de presó"
-  anys: 2.0
-  categoria: 6
-
-- pena: "Catorze anys de reclusió temporal"
-  anys: 14.0
-  categoria: 4
-
-- pena: "Tres anys de presó menor"
-  anys: 3.0
-  categoria: 6
-
-- pena: "Sis anys de presó menor"
-  anys: 6.0
-  categoria: 6
-
-- pena: "Sis anys i un dia d'inhabilitació especial"
-  anys: 6.0
-  categoria: 9
-
-- pena: "Sis mesos i un dia de presó correccional"
-  anys: 0.5
-  categoria: 6
-
-- pena: "Vuit anys i un dia d'inhabilitació especial"
-  anys: 8.0
-  categoria: 9
-
-- pena: "Dotze anys d'inhabilitació especial"
-  anys: 12.0
-  categoria: 9
-
-- pena: "Nou anys d'inhabilitació especial"
-  anys: 9.0
-  categoria: 9
-
-- pena: "Absolt i pena governativa privativa de llibertat"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Acabament"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Sis anys i un dia de presó menor"
-  anys: 6.0
-  categoria: 5
-
-- pena: "Arxiu sense declaració de responsabilitats i dos mesos d'arrest major"
-  anys: 0.17
-  categoria: 7
-
-- pena: "Rebel·lia i arxiu"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Sis anys de presó major"
-  anys: 6.0
-  categoria: 6
-
-- pena: "Absolt, multa"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Tres anys"
-  anys: 3.0
-  categoria: 6
-
-- pena: "Vint anys de reclusió menor"
-  anys: 20.0
-  categoria: 4
-
-- pena: "Vint anys i un dia de reclusió temporal"
-  anys: 20.0
-  categoria: 3
-
-- pena: "Sobreseïment definitiu i vint dies d'arrest menor"
-  anys: 0.05
-  categoria: 7
-
-- pena: "Absolta"
-  anys: 0.0
-  categoria: 8
-
-- pena: "Sis mesos d'arrest major"
-  anys: 0.5
-  categoria: 7
-
-- pena: "Rebel·lia"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Quatre mesos d'arrest major"
-  anys: 0.33
-  categoria: 7
-
-- pena: "Nul·litat del procediment, unió a corda fluixa"
-  anys: 0.0
-  categoria: 8
-
-- pena: "Dos anys de presó menor"
-  anys: 2.0
-  categoria: 6
-
-- pena: "Arxiu, multa"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Dos mesos i un dia d'arrest major"
-  anys: 0.17
-  categoria: 7
-
-- pena: "Absolt i sis mesos d'arrest major"
-  anys: 0.5
-  categoria: 7
-
-- pena: "Dos anys de presó correccional"
-  anys: 2.0
-  categoria: 6
-
-- pena: "Acabament, quinze dies d'arrest menor, sobreseïment i llibertat"
-  anys: 0.04
-  categoria: 7
-
-- pena: "Dotze anys de presó menor"
-  anys: 12.0
-  categoria: 5
-
-- pena: "Catorze anys i vuit mesos de reclusió temporal"
-  anys: 14.67
-  categoria: 4
-
-- pena: "Vuit anys i un dia de presó major"
-  anys: 8.0
-  categoria: 5
-
-- pena: "Vuit anys d'inhabilitació especial"
-  anys: 8.0
-  categoria: 9
-
-- pena: "Sis anys i un dia de reclusió temporal"
-  anys: 6.0
-  categoria: 5
-
-- pena: "Quatre anys de presó menor"
-  anys: 4.0
-  categoria: 6
-
-- pena: "Tres anys i un dia de presó menor"
-  anys: 3.0
-  categoria: 6
-
-- pena: "Elevades a causa, continuant els tràmits en un sumaríssim"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Tramitació d'expedient sumaríssim"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Arxiu sense declaració de responsabilitats i tres mesos d'arrest major"
-  anys: 0.25
-  categoria: 7
-
-- pena: "Sis mesos i un dia de desterrament"
-  anys: 0.5
-  categoria: 9
-
-- pena: "Sobreseïment i dos mesos d'arrest major"
-  anys: 0.17
-  categoria: 7
-
-- pena: "Acabament i un mes d'arrest menor"
-  anys: 0.08
-  categoria: 7
-
-- pena: "Sobreseïment provisional, tres mesos d'arrest major i llibertat"
-  anys: 0.25
-  categoria: 7
-
-- pena: "Trenta anys de reclusió temporal"
-  anys: 30.0
-  categoria: 3
-
-- pena: "Sis anys de presó correccional"
-  anys: 6.0
-  categoria: 6
-
-- pena: "Tres anys de presó correccional"
-  anys: 3.0
-  categoria: 6
-
-- pena: "Un any de presó correccional"
-  anys: 1.0
-  categoria: 6
-
-- pena: "Un any i tres mesos de presó"
-  anys: 1.25
-  categoria: 6
-
-- pena: "Vint anys de presó menor"
-  anys: 20.0
-  categoria: 4
-
-- pena: "Absolt i quatre mesos d'arrest major"
-  anys: 0.33
-  categoria: 7
-
-- pena: "Vint-i-cinc anys / Vint-i-cinc anys"
-  anys: 25.0
-  categoria: 3
-
-- pena: "Sis anys i un dia de presó correccional"
-  anys: 6.0
-  categoria: 5
-
-- pena: "Sense incoació de causa"
-  anys: 0.0
-  categoria: 8
-
-- pena: "Es segueix un altre procediment contra l'encausat"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Dos mesos d'arrest governatiu"
-  anys: 0.17
-  categoria: 9
-
-- pena: "Finalització"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Dotze anys de reclusió temporal"
-  anys: 12.0
-  categoria: 5
-
-- pena: "Inhabilitació absoluta perpètua"
-  anys: 35.0
-  categoria: 9
-
-- pena: "Instrucció de peça separada"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Nou anys d'inhabilitació per a càrrecs públics"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Nou anys d'internament"
-  anys: 9.0
-  categoria: 5
-
-- pena: "Nou anys de presó"
-  anys: 9.0
-  categoria: 5
-
-- pena: "Dos anys, onze mesos i deu dies de presó menor / Quinze dies d'arrest menor / Un mes i un dia d'arrest subsidiari"
-  anys: 2.92
-  categoria: 6
-
-- pena: "Quinze anys de reclusió menor / Quinze anys de presó major"
-  anys: 15.0
-  categoria: 4
-
-- pena: "Ordre de procedir per a la tramitació de sumaríssim"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Quatre anys de presó correccional"
-  anys: 4.0
-  categoria: 6
-
-- pena: "Quatre anys de presó major"
-  anys: 4.0
-  categoria: 6
-
-- pena: "Quatre anys, dos mesos i un dia de presó menor"
-  anys: 4.17
-  categoria: 6
-
-- pena: "Destinat a Batalló de Treballadors o a Camp de Concentració"
-  anys: 0.0
-  categoria: 9
-
-- pena: "Quinze anys de reclusió menor"
-  anys: 15.0
-  categoria: 4
-
-- pena: "Cinc anys de presó menor"
-  anys: 5.0
-  categoria: 6
-
-- pena: "Quatre anys"
-  anys: 4.0
-  categoria: 6
+    - pena: "Absolt i un mes d'arrest menor"
+      anys: 0.08
+      categoria: "<6m"
+
+    - pena: "Absolt i dos mesos d'arrest major"
+      anys: 0.17
+      categoria: "<6m"
+
+    - pena: "Mort"
+      anys: 0.0
+      categoria: mort 
+
+    - pena: "Vuit anys de presó major"
+      anys: 20.0
+      categoria: "6-12a"
+
+    - pena: "Nou anys de presó major"
+      anys: 9.0
+      categoria: "6-12a"
+
+    - pena: "Sis mesos i un dia de presó menor"
+      anys: 0.5
+      categoria: "6m-6a"
+
+    - pena: "Sobreseïment provisional i tres mesos d'arrest major"
+      anys: 0.25
+      categoria: "<6m"
+
+    - pena: "Tres mesos d'arrest major"
+      anys: 0.25
+      categoria: "<6m"
+
+    - pena: "Trenta anys de reclusió major"
+      anys: 30.0
+      categoria: "20-30a"
+
+    - pena: "Dotze anys i un dia de reclusió menor"
+      anys: 12.0
+      categoria: "12-20a"
+
+    - pena: "Desglossament en un altre procediment"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Sobreseïment provisional i un mes d'arrest menor"
+      anys: 0.08
+      categoria: "<6m"
+
+    - pena: "Vint anys i un dia de reclusió major"
+      anys: 20.0
+      categoria: "20-30a"
+
+    - pena: "Sobreseïment provisional i dos mesos d'arrest major"
+      anys: 0.17
+      categoria: "<6m"
+
+    - pena: "Un any de presó menor"
+      anys: 1.0
+      categoria: "6m-6a"
+
+    - pena: "Un mes d'arrest menor"
+      anys: 0.08
+      categoria: "<6m"
+
+    - pena: "No consta"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Absolt, multa o presó subsidiària"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Suspensió"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Absolt i tres mesos d'arrest major"
+      anys: 0.25
+      categoria: "<6m"
+
+    - pena: "Dos mesos d'arrest major"
+      anys: 1.0
+      categoria: "<6m"
+
+    - pena: "Deu anys de presó major"
+      anys: 2.0
+      categoria: "6-12a"
+
+    - pena: "Deu anys d'inhabilitació especial"
+      anys: 2.0
+      categoria: alt
+
+    - pena: "Arxiu sense declaració de responsabilitats i un mes d'arrest menor"
+      anys: 0.08
+      categoria: "<6m"
+
+    - pena: "Dos anys de presó"
+      anys: 2.0
+      categoria: "6m-6a"
+
+    - pena: "Catorze anys de reclusió temporal"
+      anys: 14.0
+      categoria: "12-20a"
+
+    - pena: "Tres anys de presó menor"
+      anys: 3.0
+      categoria: "6m-6a"
+
+    - pena: "Sis anys de presó menor"
+      anys: 6.0
+      categoria: "6m-6a"
+
+    - pena: "Sis anys i un dia d'inhabilitació especial"
+      anys: 6.0
+      categoria: alt
+
+    - pena: "Sis mesos i un dia de presó correccional"
+      anys: 0.5
+      categoria: "6m-6a"
+
+    - pena: "Vuit anys i un dia d'inhabilitació especial"
+      anys: 8.0
+      categoria: alt
+
+    - pena: "Dotze anys d'inhabilitació especial"
+      anys: 12.0
+      categoria: alt
+
+    - pena: "Nou anys d'inhabilitació especial"
+      anys: 9.0
+      categoria: alt
+
+    - pena: "Absolt i pena governativa privativa de llibertat"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Acabament"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Sis anys i un dia de presó menor"
+      anys: 6.0
+      categoria: "6-12a"
+
+    - pena: "Arxiu sense declaració de responsabilitats i dos mesos d'arrest major"
+      anys: 0.17
+      categoria: "<6m"
+
+    - pena: "Rebel·lia i arxiu"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Sis anys de presó major"
+      anys: 6.0
+      categoria: "6m-6a"
+
+    - pena: "Absolt, multa"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Tres anys"
+      anys: 3.0
+      categoria: "6m-6a"
+
+    - pena: "Vint anys de reclusió menor"
+      anys: 20.0
+      categoria: "12-20a"
+
+    - pena: "Vint anys i un dia de reclusió temporal"
+      anys: 20.0
+      categoria: "20-30a"
+
+    - pena: "Sobreseïment definitiu i vint dies d'arrest menor"
+      anys: 0.05
+      categoria: "<6m"
+
+    - pena: "Absolta"
+      anys: 0.0
+      categoria: lib
+
+    - pena: "Sis mesos d'arrest major"
+      anys: 0.5
+      categoria: "<6m"
+
+    - pena: "Rebel·lia"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Quatre mesos d'arrest major"
+      anys: 0.33
+      categoria: "<6m"
+
+    - pena: "Nul·litat del procediment, unió a corda fluixa"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Dos anys de presó menor"
+      anys: 2.0
+      categoria: "6m-6a"
+
+    - pena: "Arxiu, multa"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Dos mesos i un dia d'arrest major"
+      anys: 0.17
+      categoria: "<6m"
+
+    - pena: "Absolt i sis mesos d'arrest major"
+      anys: 0.5
+      categoria: "<6m"
+
+    - pena: "Dos anys de presó correccional"
+      anys: 2.0
+      categoria: "6m-6a"
+
+    - pena: "Acabament, quinze dies d'arrest menor, sobreseïment i llibertat"
+      anys: 0.04
+      categoria: "<6m"
+
+    - pena: "Dotze anys de presó menor"
+      anys: 12.0
+      categoria: "6-12a"
+
+    - pena: "Catorze anys i vuit mesos de reclusió temporal"
+      anys: 14.67
+      categoria: "12-20a"
+
+    - pena: "Vuit anys i un dia de presó major"
+      anys: 8.0
+      categoria: "6-12a"
+
+    - pena: "Vuit anys d'inhabilitació especial"
+      anys: 8.0
+      categoria: alt
+
+    - pena: "Sis anys i un dia de reclusió temporal"
+      anys: 6.0
+      categoria: "6-12a"
+
+    - pena: "Quatre anys de presó menor"
+      anys: 4.0
+      categoria: "6m-6a"
+
+    - pena: "Tres anys i un dia de presó menor"
+      anys: 3.0
+      categoria: "6m-6a"
+
+    - pena: "Elevades a causa, continuant els tràmits en un sumaríssim"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Tramitació d'expedient sumaríssim"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Arxiu sense declaració de responsabilitats i tres mesos d'arrest major"
+      anys: 0.25
+      categoria: "<6m"
+
+    - pena: "Sis mesos i un dia de desterrament"
+      anys: 0.5
+      categoria: alt
+
+    - pena: "Sobreseïment i dos mesos d'arrest major"
+      anys: 0.17
+      categoria: "<6m"
+
+    - pena: "Acabament i un mes d'arrest menor"
+      anys: 0.08
+      categoria: "<6m"
+
+    - pena: "Sobreseïment provisional, tres mesos d'arrest major i llibertat"
+      anys: 0.25
+      categoria: "<6m"
+
+    - pena: "Trenta anys de reclusió temporal"
+      anys: 30.0
+      categoria: "20-30a"
+
+    - pena: "Sis anys de presó correccional"
+      anys: 6.0
+      categoria: "6m-6a"
+
+    - pena: "Tres anys de presó correccional"
+      anys: 3.0
+      categoria: "6m-6a"
+
+    - pena: "Un any de presó correccional"
+      anys: 1.0
+      categoria: "6m-6a"
+
+    - pena: "Un any i tres mesos de presó"
+      anys: 1.25
+      categoria: "6m-6a"
+
+    - pena: "Vint anys de presó menor"
+      anys: 20.0
+      categoria: "12-20a"
+
+    - pena: "Absolt i quatre mesos d'arrest major"
+      anys: 0.33
+      categoria: "<6m"
+
+    - pena: "Vint-i-cinc anys / Vint-i-cinc anys"
+      anys: 25.0
+      categoria: "20-30a"
+
+    - pena: "Sis anys i un dia de presó correccional"
+      anys: 6.0
+      categoria: "6-12a"
+
+    - pena: "Sense incoació de causa"
+      anys: 0.0
+      categoria: alt 
+
+    - pena: "Es segueix un altre procediment contra l'encausat"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Dos mesos d'arrest governatiu"
+      anys: 0.17
+      categoria: alt
+
+    - pena: "Finalització"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Dotze anys de reclusió temporal"
+      anys: 12.0
+      categoria: "6-12a"
+
+    - pena: "Inhabilitació absoluta perpètua"
+      anys: 35.0
+      categoria: alt
+
+    - pena: "Instrucció de peça separada"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Nou anys d'inhabilitació per a càrrecs públics"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Nou anys d'internament"
+      anys: 9.0
+      categoria: "6-12a"
+
+    - pena: "Nou anys de presó"
+      anys: 9.0
+      categoria: "6-12a"
+
+    - pena: "Dos anys, onze mesos i deu dies de presó menor / Quinze dies d'arrest menor / Un mes i un dia d'arrest subsidiari"
+      anys: 2.92
+      categoria: "6m-6a"
+
+    - pena: "Quinze anys de reclusió menor / Quinze anys de presó major"
+      anys: 15.0
+      categoria: "12-20a"
+
+    - pena: "Ordre de procedir per a la tramitació de sumaríssim"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Quatre anys de presó correccional"
+      anys: 4.0
+      categoria: "6m-6a"
+
+    - pena: "Quatre anys de presó major"
+      anys: 4.0
+      categoria: "6m-6a"
+
+    - pena: "Quatre anys, dos mesos i un dia de presó menor"
+      anys: 4.17
+      categoria: "6m-6a"
+
+    - pena: "Destinat a Batalló de Treballadors o a Camp de Concentració"
+      anys: 0.0
+      categoria: alt
+
+    - pena: "Quinze anys de reclusió menor"
+      anys: 15.0
+      categoria: "12-20a"
+
+    - pena: "Cinc anys de presó menor"
+      anys: 5.0
+      categoria: "6m-6a"
+
+    - pena: "Quatre anys"
+      anys: 4.0
+      categoria: "6m-6a"
 
